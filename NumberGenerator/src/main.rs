@@ -33,7 +33,7 @@ fn main() {
             Ordering::Less => println!("Muito baixo!"),
             Ordering::Greater => println!("Muito alto!"),
             Ordering::Equal => {
-                println!("🎉 Parabéns! Você acertou!");
+                println!("Parabéns! Você acertou!");
                 break; // Encerra o jogo ao acertar
             }
         }
